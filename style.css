@@ -1,0 +1,15 @@
+@font-face {
+  font-family: MainFont;
+  src: url("./font.ttf");
+}
+
+* {
+  font-family: MainFont;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    zoom:2;
+    -moz-transform:scale(2);
+  }
+}
