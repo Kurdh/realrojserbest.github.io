@@ -13,3 +13,21 @@
     -moz-transform:scale(2);
   }
 }
+
+.btn:focus, .btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.u, .d {
+  width: 200px;
+}
+
+.u {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.d {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
