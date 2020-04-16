@@ -21,6 +21,7 @@
 var converter = new showdown.Converter(),
     text      = $("div.container").html();
         $("div.container").html(converter.makeHtml(text));
+        alert($("div.container").html())
     </script>
 </body>
 </html>
