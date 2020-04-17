@@ -32,7 +32,7 @@
     <script src="./js/showdown.min.js"></script>
     <script src="./js/showdown-table.js"></script>
     <script>
-var converter = new showdown.Converter({extensions: ['table']}),
+var converter = new showdown.Converter({tables: 'true'}),
     text      = $("div.container").html();
         $("div.container").html(converter.makeHtml(text));
         
