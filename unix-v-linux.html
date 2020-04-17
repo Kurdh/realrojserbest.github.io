@@ -30,8 +30,9 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/showdown.min.js"></script>
+    <script src="./js/showdown-table.js"></script>
     <script>
-var converter = new showdown.Converter(),
+var converter = new showdown.Converter({extensions: ['table']}),
     text      = $("div.container").html();
         $("div.container").html(converter.makeHtml(text));
         
