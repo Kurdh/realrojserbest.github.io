@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <title>جیاوازیی نێوان یونیکس و لینوکس - Roj S. Kerim</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <br />
+    <div class="container">
+| لینوکس                                                          | یونیکس                                                                |                    |
+|-----------------------------------------------------------------|-----------------------------------------------------------------------|--------------------|
+| زۆر دابەشکراوە بە خۆڕایین، هەشە بە پارەیە                       | بە پارەیە                                                             | نرخ                |
+| سەرچاوە\-کراوە                                                  | سەرچاوە\-داخراو، هەندێک پڕۆژەی سەرچاوە\-کراوەیە                       | جۆری سەرچاوە       |
+| کۆمەڵگا، لینوس تۆڕڤاڵدس                                         | ئۆڕاکڵ، ئای بی ئێم، ئەیچ پی، ئەپڵ                                     | بەرهەمهێنەر        |
+| هەموو کەسێک                                                     | زۆرتر بۆ سێرڤەر و مەینفرەیمەکان بەکاردێت، جگە لە ماک ئۆ ئێس           | بەکارهێنان         |
+| Ext2, Ext3, Ext4, Jfs, ReiserFS, Xfs, Btrfs, FAT, FAT32, NTFS   | jfs, gpfs, hfs, hfs\+, ufs, xfs, zfs format                           | پشتگیریی فایلسیستم |
+| زۆرتر GNOME و KDE، بەڵام هەزاران جێگرەوە بۆ ئەم دووانە هەیە     | یەکەمجار تەنها شێڵ بوو، دواتر Common Desktop Environment، ئێستە GNOME | جی یو ئای          |
+| ٦٠\-١٠٠ ڤایرۆسی هەیە، زۆر بە کەمی بڵاودەبنەوە                   | تا ئێستا ٨٥\-١٢٠ ڤایرۆسی هەیە                                         | پارێزراوی          |
+| زۆر جۆر                                                         | x86/x64، Sparc، Power، Itanium، PA\-RISC، PowerPC و زیاتریش           | پشتگیریی پڕۆسێسەر  |
+| Ubuntu، Fedora، Red Hat، Debian، Archlinux، Android و هتد\.\.\. | ماکۆێس، Solaris، هەموو دابەشکراوەکانی لینوکس                          | نموونە             |
+| هەڵگیراوە و لەسەر زۆر هاڕدەکان کار دەکات                        | هەڵگیراو نییە                                                         | هەڵگرتن            |
+| لەسەر زۆربەی ئامێر و ڕەقەکاڵاکان کار دەکات                      | بۆ کەم ئامێر دەبێت، یاسای کارکردنی خۆیی هەیە                          | بۆ بوون            |
+
+    </div>
+
+    <script src="./js/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/showdown.min.js"></script>
+    <script>
+var converter = new showdown.Converter(),
+    text      = $("div.container").html();
+        $("div.container").html(converter.makeHtml(text));
+        
+    </script>
+</body>
+</html>
