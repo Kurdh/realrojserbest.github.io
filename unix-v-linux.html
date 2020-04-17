@@ -36,6 +36,8 @@ var converter = new showdown.Converter({tables: 'true'}),
     text      = $("div.container").html();
         $("div.container").html(converter.makeHtml(text));
         
+        $("table").addClass("table");
+        
     </script>
 </body>
 </html>
